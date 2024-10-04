@@ -67,7 +67,7 @@ const Login = () => {
         Cookies.set('HN', response.data.HN, { expires: 7 });
         Cookies.set('userId',userId, { expires: 7 });
         alert("login success");
-        navigate('/menu');
+        navigate('https://cancer-front-vercel.vercel.app/menu');
       }
     } catch (error) {
       console.error(error)
